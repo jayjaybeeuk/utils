@@ -27,8 +27,10 @@ function zipFiles(files: string[], outputFilePath: string): Promise<void> {
 
     archive.pipe(output);
 
+    // eslint-disable-next-line no-restricted-syntax
     for (const filePath of files) {
       const file = path.basename(filePath);
+
       archive.append(fs.createReadStream(filePath), { name: file });
     }
 

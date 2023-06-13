@@ -1,0 +1,45 @@
+{
+  "name": "@jayjaybeeuk/eslint-config-typescript",
+  "version": "0.1.0",
+  "description": "A simple eslint config for TypeScript",
+  "keywords": [
+    "TypeScript",
+    "ESLint"
+  ],
+  "author": "James Bolton <james@james-bolton.com>",
+  "homepage": "https://github.com/jayjaybeeuk/utils#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayjaybeeuk/utils.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@jayjaybeeuk/eslint-config-typescript.test.js",
+    "lint": "eslint ."
+  },
+  "bugs": {
+    "url": "https://github.com/jayjaybeeuk/utils/issues"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.11",
+    "@typescript-eslint/parser": "^5.59.11",
+    "eslint": "^8.42.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-cypress": "^2.13.3",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jest": "^27.2.1",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "prettier": "^2.8.8"
+  },
+  "peerDependencies": {
+    "jest": "^29.5.0"
+  }
+}

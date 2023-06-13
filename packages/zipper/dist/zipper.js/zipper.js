@@ -23,6 +23,7 @@ function zipFiles(files, outputFilePath) {
             reject(err);
         });
         archive.pipe(output);
+        // eslint-disable-next-line no-restricted-syntax
         for (var _i = 0, files_1 = files; _i < files_1.length; _i++) {
             var filePath = files_1[_i];
             var file = path.basename(filePath);
