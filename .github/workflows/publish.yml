@@ -18,4 +18,4 @@ jobs:
       - name: Publish packages
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: yarn publish:packages
+        run: yarn publish::packages
