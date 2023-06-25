@@ -19,6 +19,11 @@ jobs:
         run: yarn install
       - name: Build packages
         run: yarn build
+      - name: Upload build files to repo
+        run: |
+          # Configure git
+          git config user.name "$(git log -n 1 --pretty=format:%an)"
+          git config user.email "$(git log -n 1 --pretty=format:%ae)"
       - name: Publish packages
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
