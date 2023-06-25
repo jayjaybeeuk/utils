@@ -3,10 +3,9 @@
   "version": "independent",
   "command": {
     "publish": {
-      "conventionalCommits": true
-    },
-    "version": {
-      "message": "chore(release): publish"
+      "conventionalCommits": true,
+      "message": "chore(release): publish",
+      "registry": "https://npm.pkg.github.com/"
     }
   }
 }

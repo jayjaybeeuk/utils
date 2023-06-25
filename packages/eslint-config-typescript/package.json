@@ -9,10 +9,10 @@
   "author": "James Bolton <james@james-bolton.com>",
   "homepage": "https://github.com/jayjaybeeuk/utils#readme",
   "license": "ISC",
-  "main": "index.js",
   "publishConfig": {
-    "access": "public"
+    "registry": "https://npm.pkg.github.com/"
   },
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jayjaybeeuk/utils.git"

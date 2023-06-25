@@ -5,6 +5,9 @@
   "author": "James Bolton <james@james-bolton.com>",
   "homepage": "",
   "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "main": "lib/zipper.js",
   "directories": {
     "lib": "lib",
