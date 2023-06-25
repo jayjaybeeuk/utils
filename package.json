@@ -9,15 +9,11 @@
     "build": "lerna run build --stream",
     "install::static": "lerna exec npm install",
     "package-script": "lerna run --scope",
-    "publish": "utils/scripts/publish.sh",
     "publish::packages": "lerna publish --yes",
     "publish::bump": "lerna publish --force-publish --canary --yes",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx packages",
     "lint::fix": "eslint --ext .js,.jsx,.ts,.tsx packages --fixAll",
-    "commit": "lerna exec --concurrency 1 --stream 'npm run commit'",
-    "release": "standard-version -a --no-verify && lerna exec --concurrency 1 --stream 'npm publish'",
-    "prepare": "husky install",
-    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && lerna version --conventional-commits --no-git-tag-version --no-push"
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.59.11",
