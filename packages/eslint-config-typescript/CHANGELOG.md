@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.5 (2023-07-06)
+
+**Note:** Version bump only for package @jayjaybeeuk/eslint-config-typescript
+
 ## 0.1.4 (2023-06-25)
 
 **Note:** Version bump only for package @jayjaybeeuk/eslint-config-typescript
