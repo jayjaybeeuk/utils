@@ -1,5 +1,5 @@
 {
-  "name": "api-client",
+  "name": "@jayjaybeeuk/api-client",
   "version": "1.1.2",
   "description": "A simple API client for making HTTP requests",
   "author": "James Bolton <james@james-bolton.com>",
