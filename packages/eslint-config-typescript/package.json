@@ -25,8 +25,8 @@
     "url": "https://github.com/jayjaybeeuk/utils/issues"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.59.11",
-    "@typescript-eslint/parser": "^5.59.11",
+    "@typescript-eslint/eslint-plugin": "5.62.0",
+    "@typescript-eslint/parser": "5.62.0",
     "eslint": "^8.42.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
@@ -37,7 +37,8 @@
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
-    "prettier": "^2.8.8"
+    "prettier": "^2.8.8",
+    "typescript": "5.0.4"
   },
   "peerDependencies": {
     "jest": "^29.5.0"
