@@ -1,6 +1,10 @@
 # Utilities
 
-This repository contains a collection of utilities that can be used in various projects. Each utility is designed to solve a specific problem or provide a specific functionality.
+This repository contains a collection of utilities that can be used in various projects. Each utility is designed to solve a specific problem or provide a specific functionality. The utilities include:
+
+- API Client
+- Zipper
+- eslint-config-typescript
 
 ## Installation
 
