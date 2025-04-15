@@ -1,6 +1,6 @@
 {
   "name": "@jayjaybeeuk/api-client",
-  "version": "1.1.4",
+  "version": "1.2.0",
   "description": "A simple API client for making HTTP requests",
   "author": "James Bolton <james@james-bolton.com>",
   "homepage": "https://github.com/jayjaybeeuk/utils#readme",
